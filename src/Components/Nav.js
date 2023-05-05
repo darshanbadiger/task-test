@@ -11,12 +11,12 @@ const Nav = () => {
   };
   return (
     <div>
-      <div className="row justify-content-around mb-3">
+      <div className="row justify-content-between mb-3">
         <div className="col-2">
-          <h2>Task Test</h2>
+          <h3>Task Test</h3>
         </div>
-        <div className="col-2">
-          <h2>ONITO Technologies</h2>
+        <div className="col-3">
+          <h3>Onito Technologies</h3>
         </div>
         <div className="col-2">
           <button className="btn btn-primary" onClick={enterdata}>

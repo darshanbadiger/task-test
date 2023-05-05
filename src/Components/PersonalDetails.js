@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const PersonalDetails = () => {
+  const navigate = useNavigate();
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [sex, setsex] = useState("");
@@ -40,6 +42,8 @@ const PersonalDetails = () => {
       },
     });
     result = await result.json();
+    alert(result.name + " Successfully Registerd.");
+    navigate("/display-details");
     console.log(result.name);
   };
   return (
