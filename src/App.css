@@ -1,12 +1,19 @@
 .App {
+  margin: 20px;
+  padding: 20px;
+}
+
+.submitbtn{
+  align-items: left;
+}
+.displaydata ul li{
+  display: inline-block;
   text-align: center;
+  width: 150px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #0d6efd;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
